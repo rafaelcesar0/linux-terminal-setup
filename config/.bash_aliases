@@ -1,0 +1,10 @@
+alias i='sudo apt install'
+alias i-get='sudo apt-get install'
+alias upd='sudo apt update && sudo apt upgrade -y'
+alias mkdir='mkdir -pv'
+alias f5='source ~/.zshrc'
+alias cls='clear'
+# alias note='gnome-text-editor'
+
+alias zshrc='code ~/.zshrc'
+alias aliases='code ~/.bash_aliases'
