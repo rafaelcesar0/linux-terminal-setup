@@ -40,7 +40,7 @@ or <b><u>[download ZIP](https://github.com/rafaelcesar0/linux-terminal-setup/arc
 ## 3. Enter the repository folder
 EX:
 ```bash
-cd ~/setup-linux
+cd ~/linux-terminal-setup
 ```
 
 ## 4. Give executable permission to [*setup.sh*](https://github.com/rafaelcesar0/linux-terminal-setup/blob/main/setup.sh)
