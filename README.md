@@ -27,14 +27,14 @@ cat ~/.ssh/id_rsa.pub
 HTTPS
 
 ```bash
-git clone https://github.com/rafaelcesar0/setup-linux.git
+git clone https://github.com/rafaelcesar0/linux-terminal-setup.git
 ```
 or SSH
 ```bash
 
-git clone git@github.com:rafaelcesar0/setup-linux.git
+git clone git@github.com:rafaelcesar0/linux-terminal-setup.git
 ```
-or <b><u>[download ZIP](https://github.com/rafaelcesar0/setup-linux/archive/refs/heads/main.zip)</u></b>
+or <b><u>[download ZIP](https://github.com/rafaelcesar0/linux-terminal-setup/archive/refs/heads/main.zip)</u></b>
 
 
 ## 3. Enter the repository folder
@@ -43,12 +43,12 @@ EX:
 cd ~/setup-linux
 ```
 
-## 4. Give executable permission to <u>[*setup.sh*](https://github.com/rafaelcesar0/setup-linux/blob/main/setup.sh)</u> file
+## 4. Give executable permission to [*setup.sh*](https://github.com/rafaelcesar0/linux-terminal-setup/blob/main/setup.sh)
 ```bash
 chmod +x ./setup.sh
 ```
 
-## 5. Run <u>[*setup.sh*](https://github.com/rafaelcesar0/setup-linux/blob/main/setup.sh)</u>
+## 5. Run [*setup.sh*](https://github.com/rafaelcesar0/linux-terminal-setup/blob/main/setup.sh)
 ```bash
 ./setup.sh
 ```
