@@ -31,7 +31,6 @@ git clone https://github.com/rafaelcesar0/linux-terminal-setup.git
 ```
 or SSH
 ```bash
-
 git clone git@github.com:rafaelcesar0/linux-terminal-setup.git
 ```
 or <b><u>[download ZIP](https://github.com/rafaelcesar0/linux-terminal-setup/archive/refs/heads/main.zip)</u></b>
