@@ -17,6 +17,7 @@ error_symbol = '[](red)'
 # Ubuntu = ''
 # Macos = '󰀵'
 # Mint = '󰣭'
+# Debian = ''
 
 # [hostname]
 # style = 'yellow'
