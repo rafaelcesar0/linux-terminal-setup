@@ -1,23 +1,23 @@
 add_newline = false
-# command_timeout = 1000
-# format = '''$os$all$character'''
+command_timeout = 1000
+format = '''$os$all$character'''
 palette = 'dracula'
 
 [character]
-success_symbol = '[](green)'
-error_symbol = '[](red)'
+success_symbol = '[](bold green)'
+error_symbol = '[](bold red)'
 
-# [os]
-# format = '[$symbol]($style) '
-# disabled = false
+[os]
+format = '[$symbol]($style) '
+disabled = false
 
-# [os.symbols]
-# Windows = ''
-# Arch = '󰣇'
-# Ubuntu = ''
-# Macos = '󰀵'
-# Mint = '󰣭'
-# Debian = ''
+[os.symbols]
+Windows = ''
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+Mint = '󰣭'
+Debian = ''
 
 # [hostname]
 # style = 'yellow'
@@ -25,22 +25,22 @@ error_symbol = '[](red)'
 # format = 'on [$hostname]($style) '
 # disabled = true
 
-# # [username]
-# # style_user = 'white'
-# # style_root = 'white'
-# # format = '[$user]($style) '
-# # disabled = false
-# # show_always = true
+# [username]
+# style_user = 'white'
+# style_root = 'white'
+# format = '[$user]($style) '
+# disabled = false
+# show_always = true
 
 [directory]
 truncation_length = 1
 truncation_symbol = '…/'
-home_symbol = '󰋜 ~'
+# home_symbol = '󰋜 ~'
 read_only = '  '
 format = '[$path]($style)[$read_only]($read_only_style) '
 
-# [git_branch]
-# symbol = ' '
+[git_branch]
+symbol = ' '
 # # format = '[$symbol$branch]($style) '
 # truncation_symbol = '…/'
 
@@ -52,7 +52,7 @@ format = '[$path]($style)[$read_only]($read_only_style) '
 # diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 # behind = '⇣${count}'
 # modified = ' '
-# staged = '[++\($count\)]($style)'
+# staged = '[+$count]($style)'
 # deleted = ' '
 
 # [nodejs]
