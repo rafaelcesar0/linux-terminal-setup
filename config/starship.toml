@@ -12,7 +12,7 @@ format = '[$symbol]($style) '
 disabled = false
 
 [os.symbols]
-Windows = ''
+Windows = ''
 Arch = '󰣇'
 Ubuntu = ''
 Macos = '󰀵'
