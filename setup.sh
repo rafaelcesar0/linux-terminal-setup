@@ -3,9 +3,9 @@
 # Obtendo o diretório onde o script está localizado
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 
-# Removendo travas eventuais do apt
-sudo rm -f /var/lib/dpkg/lock-frontend
-sudo rm -f /var/cache/apt/archives/lock
+# # Removendo travas eventuais do apt
+# sudo rm -f /var/lib/dpkg/lock-frontend
+# sudo rm -f /var/cache/apt/archives/lock
 
 # Atualizando o Linux
 sudo apt update && sudo apt upgrade -y
@@ -23,14 +23,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 
 # NVM / Node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.zshrc
 nvm i --lts
 nvm use global default
 
 # Bun
 sudo apt install -y unzip
-curl -fsSL https://bun.sh/install | bash
+curl -fsSL https://bun.sh/install | bash 
 
 # Copiando arquivos para os diretórios definidos
 cp -f "$SCRIPT_DIR/config/.zshrc" ~/
