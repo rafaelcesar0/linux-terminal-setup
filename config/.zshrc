@@ -23,7 +23,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Standard plugins can be found in $ZSH/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages zsh-autosuggestions F-Sy-H web-search)
+plugins=(git colored-man-pages zsh-autosuggestions F-Sy-H web-search npm aliases)
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 source $ZSH/oh-my-zsh.sh
