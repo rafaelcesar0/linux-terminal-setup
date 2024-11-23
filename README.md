@@ -1,12 +1,12 @@
 # Steps for installation
 
-## 1. Install git, zsh, curl, wget and oh-my-zsh
+## 1. Install `git`, `zsh`, `curl`, `wget` and `oh-my-zsh`
 ```bash
 sudo apt install -y git zsh curl wget &&
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 1.1 Configuring Git
+### 1.1 Configuring Git (optional)
 ```bash
 git config --global init.defaultBranch main
 git config --global user.name "your_github_username" # replace "your_github_username"
