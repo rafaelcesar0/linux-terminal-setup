@@ -31,7 +31,4 @@ cp -f "$SCRIPT_DIR/config/.zshrc" ~/
 mkdir -p ~/dev
 source ~/.zshrc
 
-# Mudando o shell padrão para zsh
-chsh -s $(which zsh);
-
 echo "- Settings completed. Please restart the terminal to apply the changes."
