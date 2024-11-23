@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-# Obtendo o diretório onde o script está localizado
-SCRIPT_DIR=$(dirname "$(realpath "$0")")
 
 # Atualizando o Linux
 sudo apt update && sudo apt upgrade -y
@@ -12,6 +10,8 @@ git clone https://github.com/z-shell/F-Sy-H.git \
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 
+# Obtendo o diretório onde o script está localizado
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
 # Copiando arquivos para os diretórios definidos
 cp -f "$SCRIPT_DIR/config/.zshrc" ~/
 # mkdir -p ~/.fonts
