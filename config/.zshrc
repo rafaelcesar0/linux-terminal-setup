@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# Aliases
+# ~~~~~~~~~~~~~~~~~~~~ Aliases ~~~~~~~~~~~~~~~~~~~~
 alias i='sudo apt install'
 alias i-get='sudo apt-get install'
 alias upd='sudo apt update && sudo apt upgrade -y'
