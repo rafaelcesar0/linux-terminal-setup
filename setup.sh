@@ -12,6 +12,11 @@ git clone https://github.com/z-shell/F-Sy-H.git \
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 
+# Copiando arquivos para os diretórios definidos
+cp -f "$SCRIPT_DIR/config/.zshrc" ~/
+# mkdir -p ~/.fonts
+# cp -f "$SCRIPT_DIR/fonts/*" ~/.fonts/
+
 # NVM / Node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.zshrc
@@ -22,11 +27,6 @@ nvm use global default
 sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
 
-# Copiando arquivos para os diretórios definidos
-cp -f "$SCRIPT_DIR/config/.zshrc" ~/
-
-# mkdir -p ~/.fonts
-# cp -f "$SCRIPT_DIR/fonts/*" ~/.fonts/
 
 mkdir -p ~/dev
 source ~/.zshrc
