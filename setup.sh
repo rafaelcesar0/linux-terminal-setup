@@ -27,8 +27,6 @@ nvm use global default
 sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
 
-
-mkdir -p ~/dev
 source ~/.zshrc
 
 echo "- Settings completed. Please restart the terminal to apply the changes."
