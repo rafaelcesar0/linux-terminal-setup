@@ -1,106 +1,21 @@
 add_newline = false
-command_timeout = 1000
-format = '''$os$all$character'''
-palette = 'dracula'
+
 [character]
-success_symbol = '[](bold green)'
-error_symbol = '[](bold red)'
-[os]
-format = '[$symbol]($style) '
-disabled = false
-[os.symbols]
-Windows = ''
-Arch = '󰣇'
-Ubuntu = ''
-Macos = '󰀵'
-Mint = '󰣭'
-Debian = ''
-# [hostname]
-# style = 'yellow'
-# ssh_only = false
-# format = 'on [$hostname]($style) '
-# disabled = true
-# [username]
-# style_user = 'white'
-# style_root = 'white'
-# format = '[$user]($style) '
-# disabled = false
-# show_always = true
-[directory]
-truncation_length = 1
-truncation_symbol = '…/'
-# home_symbol = '󰋜 ~'
-read_only = '  '
-format = '[$path]($style)[$read_only]($read_only_style) '
+success_symbol = '[\$](bold green)'
+error_symbol = '[\$](bold red)'
+
 [git_branch]
-symbol = ' '
-# # format = '[$symbol$branch]($style) '
-# truncation_symbol = '…/'
-# [git_status]
-# format = '[$all_status$ahead_behind]($style) '
-# conflicted = '🏳'
-# untracked = ' '
-# ahead = '⇡${count}'
-# diverged = '⇕⇡${ahead_count}⇣${behind_count}'
-# behind = '⇣${count}'
-# modified = ' '
-# staged = '[+$count]($style)'
-# deleted = ' '
-# [nodejs]
-# symbol = '󰎙'
-# format = '[$symbol $version]($style) '
-# [conda]
-# style = 'conda'
-# symbol = ' '
-# ignore_base = false
-# format = '[$symbol$environment$version]($style) '
-# disabled = false
-# [python]
-# style = 'python'
-# # format = '[$symbol$virtualenv]($style) '
-# format = '[$symbol$virtualenv $version]($style) '
-# symbol = ' '
-# version_format = '${raw}'
-# disabled = false
-[palettes.dracula]
-black = '#000000'
-white = '#FFFFFF'
-red = '#FF5555'
-blue = '#BD93F9'
-cyan = '#8BE9FD'
-purple = '#FF79C6'
-pink = '#ff04dd'
-green = '#50FA7B'
-yellow = '#F1FA8C'
-bright-black = '#555555'
-bright-white = '#BBBBBB'
-bright-red = '#FF5555'
-bright-blue = '#BD93F9'
-bright-cyan = '#8BE9FD'
-bright-purple = '#FF79C6'
-bright-green = '#50FA7B'
-bright-yellow = '#F1FA8C'
-fg = '#F8F8F2'
-bd = '#1E1F29'
-conda = '#51d633'
-python = '#4faaf7'
-[palettes.xcad]
-black = '#121212'
-white = '#F1F1F1'
-red = '#A52AFF'
-blue = '#2B4FFF'
-cyan = '#28B9FF'
-purple = '#2883FF'
-pink = '#ff04dd'
-green = '#7129FF'
-yellow = '#3D2AFF'
-bright-black = '#666666'
-bright-blue = '#5C78FF'
-bright-cyan = '#5AC8FF'
-bright-green = '#905AFF'
-bright-purple = '#5EA2FF'
-bright-red = '#BA5AFF'
-bright-white = '#FFFFFF'
-bright-yellow = '#685AFF'
-fg = '#F1F1F1'
-bg = '#FFFFFF'
+style = 'bold blue'
+format = '[git:\(]($style)[$branch(:$remote_branch)](bold red)[\)]($style) '
+
+[cmd_duration]
+format = '[$duration](bold yellow)'
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
+
+[bun]
+disabled = true
