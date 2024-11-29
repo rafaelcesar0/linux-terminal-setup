@@ -1,4 +1,5 @@
 add_newline = false
+# palette = 'dracula'
 
 [character]
 success_symbol = '[\$](bold green)'
@@ -19,3 +20,45 @@ disabled = true
 
 [bun]
 disabled = true
+
+[palettes.dracula]
+black = '#000000'
+white = '#FFFFFF'
+red = '#FF5555'
+blue = '#BD93F9'
+cyan = '#8BE9FD'
+purple = '#FF79C6'
+pink = '#ff04dd'
+green = '#50FA7B'
+yellow = '#F1FA8C'
+bright-black = '#555555'
+bright-white = '#BBBBBB'
+bright-red = '#FF5555'
+bright-blue = '#BD93F9'
+bright-cyan = '#8BE9FD'
+bright-purple = '#FF79C6'
+bright-green = '#50FA7B'
+bright-yellow = '#F1FA8C'
+fg = '#F8F8F2'
+bd = '#1E1F29'
+
+[palettes.xcad]
+black = '#121212'
+white = '#F1F1F1'
+red = '#A52AFF'
+blue = '#2B4FFF'
+cyan = '#28B9FF'
+purple = '#2883FF'
+pink = '#ff04dd'
+green = '#7129FF'
+yellow = '#3D2AFF'
+bright-black = '#666666'
+bright-blue = '#5C78FF'
+bright-cyan = '#5AC8FF'
+bright-green = '#905AFF'
+bright-purple = '#5EA2FF'
+bright-red = '#BA5AFF'
+bright-white = '#FFFFFF'
+bright-yellow = '#685AFF'
+fg = '#F1F1F1'
+bg = '#FFFFFF'
