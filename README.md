@@ -1,3 +1,17 @@
+# Information
+
+Here you will find my terminal settings and the technology I use in my daily life.
+
+## Technologies used
+- [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- [Oh my zsh](https://ohmyz.sh/)
+- [Starshipt](https://starship.rs)
+- [Zoxide](https://github.com/ajeetdsouza/zoxide)
+- [Fzf](https://github.com/junegunn/fzf)
+- [Nvm](https://github.com/nvm-sh/nvm)
+- [Pnpm](https://pnpm.io/)
+- [Bun](https://bun.sh/)
+
 # Steps for installation
 
 ## 1. Install `git`, `zsh`, `curl`, `wget` and `oh-my-zsh`
@@ -9,8 +23,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 1.1 Configuring Git (optional)
 ```bash
 git config --global init.defaultBranch main
-git config --global user.name "your_github_username" # replace "your_github_username"
-git config --global user.email "your_github_email" # replace "your_github_email"
+git config --global user.name "your_github_username" # Input your github username
+git config --global user.email "your_github_email" # Input your github email
 ```
 
 ### 1.2 Create SSH key (optional)
